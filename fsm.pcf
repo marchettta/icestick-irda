@@ -1,0 +1,15 @@
+#Oscilator
+
+set_io	clk	21
+
+set_io	TXD		105
+set_io	RXD		106
+set_io	SD		107
+
+set_io led[0] 	99
+set_io led[1] 	98
+set_io led[2] 	97
+set_io led[3] 	96
+set_io ledGreen 95
+
+set_io 	rxd_p	78
