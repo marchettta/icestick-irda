@@ -1,6 +1,6 @@
-#Oscilator
+# IrDA pin constraint file
 
-set_io	clk	21
+set_io	clk	    21
 
 set_io	TXD		105
 set_io	RXD		106
