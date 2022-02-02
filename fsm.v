@@ -15,7 +15,7 @@ module IrDA( clk, RXD, TXD, SD, led, ledGreen, rxd_p);
 	parameter SEND_1       = 3'b101;
 	parameter IDLE         = 3'b110;
 
-	parameter data         = 32'h00FFFB04;
+	parameter data         = 32'hFF00FB04;
 	
 	reg [24:0] counter      = 0;  //Counter for tramsission 38 kz
 	reg [24:0] counterTrans = 0;  //Counter for ms counting
