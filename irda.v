@@ -37,7 +37,7 @@ module IrDA( clk, RXD, TXD, SD, led, ledGreen, rxd_p);
 		if (active == 1)
 		begin
 			counter = counter + 1;
-			if (counter < 158 ) TXD <= 1'b1;
+			if (counter < 25 ) TXD <= 1'b1;             //  316 ~= 26 us   2us ~= 25 pulsos
 			else if ( counter <  316 ) TXD <= 1'b0;
 			else if ( counter == 316 ) counter = 0;
 		end
